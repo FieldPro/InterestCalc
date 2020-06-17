@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	
+</head>
+	<body>
+		<img src="piggyvest-logo.0b78a8fa.svg">
+		<div class="container">
+			<div class="e">
+				<h2 class="nairaCol">Flex Naira</h2>
+					<form id="form">
+						<label for="calcNaira">Principal</label>
+						<input type="text" id="calcNaira" placeholder="Enter amount">
+						<br>
+						<label for="period">Year(s)</label>
+						<input type="text" id="period" placeholder="Enter year(s)">
+						<br>
+						<button type="submit" id="btn" onclick="flexNaira()">Submit</button>
+					</form>
+					<div>
+						<p id="interestNaira"></p>
+					</div>
+			</div>
+			<div class="f">
+				<h2 class="dollarCol">Flex Dollar</h2>
+					<form id="form">
+						<label for="calcDollar">Principal</label>
+						<input type="text" id="calcDollar" placeholder="Enter amount">
+						<br>
+						<label for="period1">Year(s)</label>
+						<input type="text" id="period1" placeholder="Enter year(s)">
+						<br>
+						<button type="submit" id="btn" onclick="flexDollar()">Submit</button>
+					</form>
+					<div>
+						<p id="interestDollar"></p>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
